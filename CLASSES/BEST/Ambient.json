@@ -1,0 +1,8 @@
+{
+  "type": "[Ambient]",
+  "color": {
+    "name": "color",
+    "type": "INT, INT, INT",
+    "way": "FIXED"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "[Asteroids]",
+  "file": {
+    "name": "file",
+    "type": "PATH",
+    "way": "FIXED"
+  },
+  "zone": {
+    "name": "zone",
+    "type": "STRING",
+    "way": "FIXED"
+  }
+}

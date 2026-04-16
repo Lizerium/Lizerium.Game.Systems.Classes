@@ -1,0 +1,33 @@
+{
+  "type": "[Archetype]",
+  "ship": {
+    "name": "ship",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "solar": {
+    "name": "solar",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "simple": {
+    "name": "simple",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "equipment": {
+    "name": "equipment",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "snd": {
+    "name": "snd",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "voice": {
+    "name": "voice",
+    "type": "STRING, STRING",
+    "way": "OPTIONAL"
+  }
+}

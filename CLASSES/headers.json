@@ -1,0 +1,17 @@
+{
+  "Headers": [
+    "[SystemInfo]",
+    "[TexturePanels]",
+    "[Music]",
+    "[Dust]",
+    "[Asteroids]",
+    "[Ambient]",
+    "[Background]",
+    "[LightSource]",
+    "[Zone]",
+    "[Object]",
+    "[EncounterParameters]",
+    "[Nebula]",
+    "[Archetype]"
+  ]
+}

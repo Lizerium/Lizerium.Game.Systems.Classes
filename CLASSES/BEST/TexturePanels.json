@@ -1,0 +1,8 @@
+{
+  "type": "[TexturePanels]",
+  "file": {
+    "name": "file",
+    "type": "PATH",
+    "way": "FIXED"
+  }
+}

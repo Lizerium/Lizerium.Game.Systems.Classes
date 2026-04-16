@@ -1,0 +1,218 @@
+{
+  "type": "[Zone]",
+  "nickname": {
+    "name": "nickname",
+    "type": "STRING",
+    "way": "FIXED"
+  },
+  "pos": {
+    "name": "pos",
+    "type": "FLOAT, FLOAT, FLOAT",
+    "way": "FIXED"
+  },
+  "shape": {
+    "name": "shape",
+    "type": "STRING",
+    "way": "FIXED"
+  },
+  "size": {
+    "name": "size",
+    "type": "INT, INT, INT",
+    "way": "FIXED"
+  },
+  "spin": {
+    "name": "spin",
+    "type": "FLOAT, FLOAT, FLOAT",
+    "way": "OPTIONAL"
+  },
+  "ids_name": {
+    "name": "ids_name",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "ids_info": {
+    "name": "ids_info",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "rotate": {
+    "name": "rotate",
+    "type": "FLOAT, FLOAT, FLOAT",
+    "way": "OPTIONAL"
+  },
+  "property_flags": {
+    "name": "property_flags",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "property_fog_color": {
+    "name": "property_fog_color",
+    "type": "INT, INT, INT",
+    "way": "OPTIONAL"
+  },
+  "damage": {
+    "name": "damage",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "visit": {
+    "name": "visit",
+    "type": "FLOAT",
+    "way": "OPTIONAL"
+  },
+  "power_modifier": {
+    "name": "power_modifier",
+    "type": "FLOAT",
+    "way": "OPTIONAL"
+  },
+  "spacedust": {
+    "name": "spacedust",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "spacedust_maxparticles": {
+    "name": "spacedust_maxparticles",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "interference": {
+    "name": "interference",
+    "type": "FLOAT",
+    "way": "OPTIONAL"
+  },
+  "drag_modifier": {
+    "name": "drag_modifier",
+    "type": "FLOAT",
+    "way": "OPTIONAL"
+  },
+  "edge_fraction": {
+    "name": "edge_fraction",
+    "type": "FLOAT",
+    "way": "OPTIONAL"
+  },
+  "attack_ids": {
+    "name": "attack_ids",
+    "type": "STRING, ...",
+    "way": "OPTIONAL"
+  },
+  "mission_type": {
+    "name": "mission_type",
+    "type": "STRING, STRING",
+    "way": "OPTIONAL"
+  },
+  "comment": {
+    "name": "comment",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "ambient": {
+    "name": "ambient",
+    "type": "INT, INT, INT",
+    "way": "OPTIONAL"
+  },
+  "lane_id": {
+    "name": "lane_id",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "tradelane_attack": {
+    "name": "tradelane_attack",
+    "type": "FLOAT",
+    "way": "OPTIONAL"
+  },
+  "tradelane_down": {
+    "name": "tradelane_down",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "sort": {
+    "name": "sort",
+    "type": "FLOAT",
+    "way": "OPTIONAL"
+  },
+  "vignette_type": {
+    "name": "vignette_type",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "toughness": {
+    "name": "toughness",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "longevity": {
+    "name": "longevity",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "density": {
+    "name": "density",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "repop_time": {
+    "name": "repop_time",
+    "type": "FLOAT",
+    "way": "OPTIONAL"
+  },
+  "max_battle_size": {
+    "name": "max_battle_size",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "pop_type": {
+    "name": "pop_type",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "relief_time": {
+    "name": "relief_time",
+    "type": "FLOAT",
+    "way": "OPTIONAL"
+  },
+  "population_additive": {
+    "name": "population_additive",
+    "type": "BOOL",
+    "way": "OPTIONAL"
+  },
+  "path_label": {
+    "name": "path_label",
+    "type": "STRING, INT",
+    "way": "OPTIONAL"
+  },
+  "usage": {
+    "name": "usage",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "mission_eligible": {
+    "name": "mission_eligible",
+    "type": "BOOL",
+    "way": "OPTIONAL"
+  },
+  "density_restriction": {
+    "name": "density_restriction",
+    "type": "INT, STRING",
+    "way": "REPEATABLE"
+  },
+  "encounter": {
+    "name": "encounter",
+    "type": "STRING, INT, FLOAT",
+    "way": "REPEATABLE"
+  },
+  "faction": {
+    "name": "faction",
+    "type": "STRING, FLOAT",
+    "way": "REPEATABLE"
+  },
+  "music": {
+    "name": "music",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "difficulty": {
+    "name": "difficulty",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "[Background]",
+  "basic_stars": {
+    "name": "basic_stars",
+    "type": "PATH",
+    "way": "FIXED"
+  },
+  "complex_stars": {
+    "name": "complex_stars",
+    "type": "PATH",
+    "way": "FIXED"
+  },
+  "nebulae": {
+    "name": "nebulae",
+    "type": "PATH",
+    "way": "FIXED"
+  }
+}

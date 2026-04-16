@@ -1,0 +1,18 @@
+{
+  "type": "[EncounterParameters]",
+  "nickname": {
+    "name": "nickname",
+    "type": "STRING",
+    "way": "FIXED"
+  },
+  "filename": {
+    "name": "filename",
+    "type": "PATH",
+    "way": "FIXED"
+  },
+  "faction": {
+    "name": "faction",
+    "type": "STRING, FLOAT",
+    "way": "REPEATABLE"
+  }
+}

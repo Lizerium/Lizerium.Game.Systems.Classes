@@ -1,0 +1,53 @@
+{
+  "type": "[LightSource]",
+  "nickname": {
+    "name": "nickname",
+    "type": "STRING",
+    "way": "FIXED"
+  },
+  "pos": {
+    "name": "pos",
+    "type": "FLOAT, FLOAT, FLOAT",
+    "way": "FIXED"
+  },
+  "rotate": {
+    "name": "rotate",
+    "type": "FLOAT, FLOAT, FLOAT",
+    "way": "FIXED"
+  },
+  "color": {
+    "name": "color",
+    "type": "INT, INT, INT",
+    "way": "FIXED"
+  },
+  "range": {
+    "name": "range",
+    "type": "INT",
+    "way": "FIXED"
+  },
+  "type_parameter": {
+    "name": "type",
+    "type": "STRING",
+    "way": "FIXED"
+  },
+  "direction": {
+    "name": "direction",
+    "type": "FLOAT, FLOAT, FLOAT",
+    "way": "FIXED"
+  },
+  "atten_curve": {
+    "name": "atten_curve",
+    "type": "DYNAMIC_DIRECTION",
+    "way": "FIXED"
+  },
+  "attenuation": {
+    "name": "attenuation",
+    "type": "FLOAT, FLOAT, FLOAT",
+    "way": "FIXED"
+  },
+  "color_curve": {
+    "name": "color_curve",
+    "type": "STRING, FLOAT",
+    "way": "FIXED"
+  }
+}

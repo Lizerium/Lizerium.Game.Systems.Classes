@@ -1,0 +1,28 @@
+{
+  "type": "[SystemInfo]",
+  "name": {
+    "name": "name",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "space_color": {
+    "name": "space_color",
+    "type": "INT, INT, INT",
+    "way": "FIXED"
+  },
+  "local_faction": {
+    "name": "local_faction",
+    "type": "STRING",
+    "way": "FIXED"
+  },
+  "rpop_solar_detection": {
+    "name": "rpop_solar_detection",
+    "type": "BOOL",
+    "way": "FIXED"
+  },
+  "space_farclip": {
+    "name": "space_farclip",
+    "type": "FLOAT",
+    "way": "FIXED"
+  }
+}

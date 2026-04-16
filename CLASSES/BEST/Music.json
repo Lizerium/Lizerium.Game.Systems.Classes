@@ -1,0 +1,18 @@
+{
+  "type": "[Music]",
+  "space": {
+    "name": "space",
+    "type": "STRING",
+    "way": "FIXED"
+  },
+  "danger": {
+    "name": "danger",
+    "type": "STRING",
+    "way": "FIXED"
+  },
+  "battle": {
+    "name": "battle",
+    "type": "STRING",
+    "way": "FIXED"
+  }
+}

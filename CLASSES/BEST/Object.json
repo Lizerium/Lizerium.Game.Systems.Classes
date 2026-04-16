@@ -1,0 +1,158 @@
+{
+  "type": "[Object]",
+  "nickname": {
+    "name": "nickname",
+    "type": "STRING",
+    "way": "FIXED"
+  },
+  "pos": {
+    "name": "pos",
+    "type": "FLOAT, FLOAT, FLOAT",
+    "way": "FIXED"
+  },
+  "archetype": {
+    "name": "archetype",
+    "type": "STRING",
+    "way": "FIXED"
+  },
+  "ids_name": {
+    "name": "ids_name",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "ids_info": {
+    "name": "ids_info",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "rotate": {
+    "name": "rotate",
+    "type": "FLOAT, FLOAT, FLOAT",
+    "way": "OPTIONAL"
+  },
+  "ambient_color": {
+    "name": "ambient_color",
+    "type": "INT, INT, INT",
+    "way": "OPTIONAL"
+  },
+  "burn_color": {
+    "name": "burn_color",
+    "type": "INT, INT, INT",
+    "way": "OPTIONAL"
+  },
+  "star": {
+    "name": "star",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "spin": {
+    "name": "spin",
+    "type": "FLOAT, FLOAT, FLOAT",
+    "way": "OPTIONAL"
+  },
+  "msg_id_prefix": {
+    "name": "msg_id_prefix",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "jump_effect": {
+    "name": "jump_effect",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "atmosphere_range": {
+    "name": "atmosphere_range",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "prev_ring": {
+    "name": "prev_ring",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "next_ring": {
+    "name": "next_ring",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "ring": {
+    "name": "ring",
+    "type": "STRING, PATH",
+    "way": "OPTIONAL"
+  },
+  "base": {
+    "name": "base",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "dock_with": {
+    "name": "dock_with",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "ambient": {
+    "name": "ambient",
+    "type": "INT, INT, INT",
+    "way": "OPTIONAL"
+  },
+  "visit": {
+    "name": "visit",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "reputation": {
+    "name": "reputation",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "tradelane_space_name": {
+    "name": "tradelane_space_name",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "behavior": {
+    "name": "behavior",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "voice": {
+    "name": "voice",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "space_costume": {
+    "name": "space_costume",
+    "type": "STRING, STRING",
+    "way": "OPTIONAL"
+  },
+  "faction": {
+    "name": "faction",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "difficulty_level": {
+    "name": "difficulty_level",
+    "type": "INT",
+    "way": "OPTIONAL"
+  },
+  "goto": {
+    "name": "goto",
+    "type": "STRING, STRING, STRING",
+    "way": "OPTIONAL"
+  },
+  "loadout": {
+    "name": "loadout",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "pilot": {
+    "name": "pilot",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  },
+  "parent": {
+    "name": "parent",
+    "type": "STRING",
+    "way": "OPTIONAL"
+  }
+}

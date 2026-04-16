@@ -1,0 +1,8 @@
+{
+  "type": "[Dust]",
+  "spacedust": {
+    "name": "spacedust",
+    "type": "Dust",
+    "way": "FIXED"
+  }
+}
